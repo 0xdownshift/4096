@@ -28,6 +28,14 @@ h1.title {
   float: left;
 }
 
+.preload {
+  position: absolute;
+  left: -9999px;
+}
+.preload img {
+  position: absolute;
+}
+
 @-webkit-keyframes $animation-name {
   0% {
     top: 25px;

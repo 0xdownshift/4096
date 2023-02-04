@@ -49,6 +49,14 @@ h1.title {
   float: left;
 }
 
+.preload {
+  position: absolute;
+  left: -9999px;
+  img {
+    position: absolute;
+  }
+}
+
 @include keyframes(move-up) {
   0% {
     top: 25px;
